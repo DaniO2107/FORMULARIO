@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  background-color: floralwhite;
+}
+
+.header {
+  text-align: center;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+
+.tabla {
+  border: solid 1px grey;
+  padding: 16px;
+  height: 168px;
+  border-radius: 10px;
+  width: 400px;
+  margin: -10px;
+}
+
+.tabla_list {
+  list-style: none;
+}
+
+.formulario {
+  border: solid 1px grey;
+  padding: 16px;
+  border-radius: 10px;
+  position: absolute;
+  top: 272px;
+  width: 400px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: none;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+div .genero {
+  margin: auto;
+  padding: 10px;
+  height: 20px;
+}
